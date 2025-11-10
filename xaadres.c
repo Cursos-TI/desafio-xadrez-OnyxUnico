@@ -21,10 +21,26 @@ contador++;
 printf("Movendo Bispo\n");
 printf("5 casas diagonal direita!\n");
 contador = 1;
+int cavalo = 1;
+
+
 do{
 printf("Cima direita\n");
 contador++;
 }while (contador <= bispo);
+
+printf("Movendo Cavalo\n");
+printf("2 casas baixo 1 esquerda\n");
+
+while(cavalo--)
+{
+    for (contador = 0; contador <2; contador++)
+    {
+        printf("Baixo\n");
+    }
+printf("Esquerda\n");
+}
+
 
 return 0;
 
